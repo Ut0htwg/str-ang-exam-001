@@ -31,6 +31,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -94,6 +96,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -127,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "str-ang-exam-nn1"
+  "defaultProject": "str-ang-exam-nn1",
+  "cli": {
+    "analytics": "be338a0d-7aec-4683-aa8f-d88775ce64c7"
+  }
 }
