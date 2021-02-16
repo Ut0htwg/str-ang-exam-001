@@ -9,6 +9,8 @@ import { HeroService } from '../service/hero.service';
 })
 export class HeroesComponent implements OnInit {
 
+  title = 'Everyday Heroes';
+
   @Input() heroes: Hero[] = this.heroService.getAll();
 
   constructor(private heroService: HeroService) { }
